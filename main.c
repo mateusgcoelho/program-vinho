@@ -10,7 +10,7 @@ int main()
 	printf("\n\n\nEstou vendendo 150 garrafas, me da quanto por cada uma ?\n\n\n?");
 	scanf("%f", &valorPago);
 	
-	if (valorPago < 0) {
+	if (valorPago <= 0) {
 		printf("Impossivel amigão");
 	} else {
 		if (valorPago < 100) {
